@@ -227,7 +227,7 @@ class Bot_Alive:
     @staticmethod
     def alive_info() -> str:
         alive_info_ = f"""
-<a href="https://telegram.dog/manusiarakitanm"><b>𝐊𝐚𝐦𝐩𝐚𝐧𝐠𝐔𝐬𝐞𝐫𝐠𝐚𝐲</a> 𝙎𝙞𝙖𝙥 𝙈𝙚𝙣𝙪𝙢𝙗𝙪𝙠 𝘼𝙨𝙪 🔥🔥.</b>
+<a href="https://telegram.dog/manusiarakitann"><b>𝐊𝐚𝐦𝐩𝐚𝐧𝐠𝐔𝐬𝐞𝐫𝐠𝐚𝐲</a> 𝙎𝙞𝙖𝙥 𝙈𝙚𝙣𝙪𝙢𝙗𝙪𝙠 𝘼𝙨𝙪 🔥🔥.</b>
 
   🐍   <b>𝗣𝘆𝘁𝗵𝗼𝗻 :</b>    <code>v{versions.__python_version__}</code>
   💎   <b>𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺 :</b>    <code>v{versions.__pyro_version__}</code>
