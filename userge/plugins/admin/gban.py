@@ -91,7 +91,7 @@ async def spam_protect_(message: Message):
 )
 async def gban_user(message: Message):
     """ ban a user globally """
-    await message.edit(f"**`𝐆𝐁𝐚𝐧𝐧𝐢𝐧𝐠`**\n{mention_html(user_id, firstname)}")
+    await message.edit(f"**𝐆𝐁𝐚𝐧𝐧𝐢𝐧𝐠**\n{mention_html(user_id, firstname)}")
     user_id, reason = message.extract_user_and_text
     if not user_id:
         await message.edit(
