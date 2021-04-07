@@ -228,11 +228,11 @@ class Bot_Alive:
     def alive_info() -> str:
         alive_info_ = f"""
 <a href="https://telegram.dog/manusiarakitann"><b>𝐊𝐚𝐦𝐩𝐚𝐧𝐠𝐔𝐬𝐞𝐫𝐠𝐚𝐲</a> 𝙎𝙞𝙖𝙥 𝙈𝙚𝙣𝙪𝙢𝙗𝙪𝙠 𝘼𝙨𝙪 🔥🔥.</b>
-
-  🐍   <b>𝗣𝘆𝘁𝗵𝗼𝗻 :</b>    <code>v{versions.__python_version__}</code>
-  💎   <b>𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺 :</b>    <code>v{versions.__pyro_version__}</code>
-  🐨   <b>𝗞𝗮𝗺𝗽𝗮𝗻𝗴 :</b>    <code>v{get_version()}</code>
-
+\n╭✠╼━━━━━━❖━━━━━━━✠╮
+  🐍  •➤ <b>𝗣𝘆𝘁𝗵𝗼𝗻 :</b> ➥   <code>v{versions.__python_version__}</code>
+  💎  •➤ <b>𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺 :</b> ➥   <code>v{versions.__pyro_version__}</code>
+  🐨  •➤ <b>𝗞𝗮𝗺𝗽𝗮𝗻𝗴 :</b> ➥   <code>v{get_version()}</code>
+◐━─━─━─━─━──━─━─━─━─━◐\n
 <b>{Bot_Alive._get_mode()}</b>    <code>|</code>    🕔  <b>{userge.uptime}</b>
 """
         return alive_info_
@@ -240,7 +240,7 @@ class Bot_Alive:
     @staticmethod
     def _get_mode() -> str:
         if RawClient.DUAL_MODE:
-            return "🌐  DUAL"
+            return "🌐  『DUAL』"
         if Config.BOT_TOKEN:
             return "🤖  BOT"
         return "🐨  USER"
