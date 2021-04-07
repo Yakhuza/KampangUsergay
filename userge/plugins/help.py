@@ -59,20 +59,20 @@ SAVED_SETTINGS = get_collection("CONFIGS")
 REPO_X = InlineQueryResultArticle(
     title="Repo",
     input_message_content=InputTextMessageContent("**Here's how to setup USERGE-X** "),
-    url="https://github.com/code-rgb/USERGE-X",
+    url="https://github.com/ManusiaRakitan/KampangUsergay",
     description="Setup Your Own",
     thumb_url="https://i.imgur.com/1xsOo9o.png",
     reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "🔥 USERGE-X Repo", url="https://github.com/code-rgb/USERGE-X"
+                    "💎 『𝘒𝘢𝘮𝘱𝘢𝘯𝘨𝘜𝘴𝘦𝘳𝘨𝘢𝘺』 Repo", url="https://github.com/ManusiaRakitan/KampangUsergay"
                 ),
                 InlineKeyboardButton(
-                    "🚀 Deploy USERGE-X",
+                    "🎉 Deploy 『𝘒𝘢𝘮𝘱𝘢𝘯𝘨𝘜𝘴𝘦𝘳𝘨𝘢𝘺』",
                     url=(
                         "https://heroku.com/deploy?template="
-                        "https://github.com/code-pms/MyGpack"
+                        "https://github.com/ikhsncml/MyGpack"
                     ),
                 ),
             ]
