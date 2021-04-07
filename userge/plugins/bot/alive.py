@@ -181,13 +181,13 @@ if userge.has_bot:
         alive_s = "➕ 𝗘𝘅𝘁𝗿𝗮 𝗣𝗹𝘂𝗴𝗶𝗻𝘀 : {}\n".format(
             _parse_arg(Config.LOAD_UNOFFICIAL_PLUGINS)
         )
-        alive_s += f"👥 𝗦𝘂𝗱𝗼 : {_parse_arg(Config.SUDO_ENABLED)}\n"
-        alive_s += f"🚨 𝗔𝗻𝘁𝗶𝘀𝗽𝗮𝗺 : {_parse_arg(Config.ANTISPAM_SENTRY)}\n"
+        alive_s += f"👥•➤ 𝗦𝘂𝗱𝗼 : {_parse_arg(Config.SUDO_ENABLED)}\n"
+        alive_s += f"🚨•➤ 𝗔𝗻𝘁𝗶𝘀𝗽𝗮𝗺 : {_parse_arg(Config.ANTISPAM_SENTRY)}\n"
         if Config.HEROKU_APP and Config.RUN_DYNO_SAVER:
-            alive_s += "⛽️ 𝗗𝘆𝗻𝗼 𝗦𝗮𝘃𝗲𝗿 :  ✅ αктιƒ\n"
-        alive_s += f"💬 𝗕𝗼𝘁 𝗙𝗼𝗿𝘄𝗮𝗿𝗱𝘀 : {_parse_arg(Config.BOT_FORWARDS)}\n"
-        alive_s += f"🛡 𝗣𝗠 𝗚𝘂𝗮𝗿𝗱 : {_parse_arg(not Config.ALLOW_ALL_PMS)}\n"
-        alive_s += f"📝 𝗣𝗠 𝗟𝗼𝗴𝗴𝗲𝗿 : {_parse_arg(Config.PM_LOGGING)}"
+            alive_s += "⛽•➤ 𝗗𝘆𝗻𝗼 𝗦𝗮𝘃𝗲𝗿 :  ✅ αктιƒ\n"
+        alive_s += f"💬•➤ 𝗕𝗼𝘁 𝗙𝗼𝗿𝘄𝗮𝗿𝗱𝘀 : {_parse_arg(Config.BOT_FORWARDS)}\n"
+        alive_s += f"🛡•➤ 𝗣𝗠 𝗚𝘂𝗮𝗿𝗱 : {_parse_arg(not Config.ALLOW_ALL_PMS)}\n"
+        alive_s += f"📝•➤ 𝗣𝗠 𝗟𝗼𝗴𝗴𝗲𝗿 : {_parse_arg(Config.PM_LOGGING)}"
         if allow:
             end = datetime.now()
             m_s = (end - start).microseconds / 1000
@@ -198,7 +198,7 @@ if userge.has_bot:
 
 
 def _parse_arg(arg: bool) -> str:
-    return " ✅ αктιƒ" if arg else " ❌ ησηαктιƒ"
+    return " ✅ 『αктιƒ』" if arg else " ❌ 『ησηαктιƒ』"
 
 
 class Bot_Alive:
@@ -227,11 +227,11 @@ class Bot_Alive:
     @staticmethod
     def alive_info() -> str:
         alive_info_ = f"""
-<a href="https://telegram.dog/manusiarakitann"><b>𝐊𝐚𝐦𝐩𝐚𝐧𝐠𝐔𝐬𝐞𝐫𝐠𝐚𝐲</a> 𝙎𝙞𝙖𝙥 𝙈𝙚𝙣𝙪𝙢𝙗𝙪𝙠 𝘼𝙨𝙪 🔥🔥.</b>
-\n╭✠╼━━━━━━❖━━━━━━━✠╮
-  🐍  •➤ <b>𝗣𝘆𝘁𝗵𝗼𝗻 :</b> ➥   <code>v{versions.__python_version__}</code>
-  💎  •➤ <b>𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺 :</b> ➥   <code>v{versions.__pyro_version__}</code>
-  🐨  •➤ <b>𝗞𝗮𝗺𝗽𝗮𝗻𝗴 :</b> ➥   <code>v{get_version()}</code>
+<a href="https://telegram.dog/manusiarakitann"><b>『𝘒𝘢𝘮𝘱𝘢𝘯𝘨𝘜𝘴𝘦𝘳𝘨𝘢𝘺』</a> 𝙎𝙞𝙖𝙥 𝙈𝙚𝙣𝙪𝙢𝙗𝙪𝙠 𝘼𝙨𝙪 🔥🔥.</b>
+\n▬▬▬▬▬▬❙﹡🐨﹡❙▬▬▬▬▬▬▬
+  🐍  •➤ <b>𝗣𝘆𝘁𝗵𝗼𝗻 :</b>    <code>v{versions.__python_version__}</code>
+  💎  •➤ <b>𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺 :</b>    <code>v{versions.__pyro_version__}</code>
+  🐨  •➤ <b>𝗞𝗮𝗺𝗽𝗮𝗻𝗴 :</b>    <code>v{get_version()}</code>
 ◐━─━─━─━─━──━─━─━─━─━◐\n
 <b>{Bot_Alive._get_mode()}</b>    <code>|</code>    🕔  <b>{userge.uptime}</b>
 """
