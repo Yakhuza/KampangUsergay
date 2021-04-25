@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-   <a href="https://github.com/Yakhuza/KampangUsergay"><img src="https://telegra.ph/file/bba490d0fea9b2b139e10.gif" alt="Yakhuza-Userbot" width=400px></a>
+   <a href="https://github.com/Yakhuza/KampangUsergay"><img src="https://telegra.ph/file/bba490d0fea9b2b139e10.gif" width=400px></a>
    <br>
    <br>
 </p>
@@ -13,7 +13,7 @@
 **Yakhuza-Userbot** is a Powerful , _Pluggable_ Telegram UserBot written in _Python_ using [Pyrogram](https://github.com/pyrogram/pyrogram).
 <br>
 <p align="center">
-    <a href="https://telegram.dog/caritemanhidop"><img src="https://telegra.ph/file/b28a3909df2e46bab6458.jpg" width=220px></a></p>
+    <a href="https://telegram.dog/caritemanhidop"><img src="https://telegra.ph/file/4def0b599673e8b3ec73b.png" width=220px></a></p>
 
 ## Disclaimer
 ```
