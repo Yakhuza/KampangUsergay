@@ -4,8 +4,6 @@
    <br>
    <br>
 </p>
-<h1>Yakhuza-Userbot</h1>
-<b>Yakhuza-Userbot!</b>
 <br>
 <br>
 
