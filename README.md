@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-   <a href="https://github.com/Yakhuza/KampangUsergay"><img src="https://telegra.ph/file/b5835874bd8a6909a6a39.png" alt="Yakhuza-Userbot" width=400px></a>
+   <a href="https://github.com/Yakhuza/KampangUsergay"><img src="https://telegra.ph/file/bba490d0fea9b2b139e10.gif" alt="Yakhuza-Userbot" width=400px></a>
    <br>
    <br>
 </p>
