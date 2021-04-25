@@ -1,17 +1,16 @@
-<h2 align="center"><b>MENAGE: <a href="https://telegram.dog/mixiologist">KOALA ░ 🐨</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/Camel07/KampangUsergay"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="KampangUsergay" width=400px></a>
+   <a href="https://github.com/Yakhuza/KampangUsergay"><img src="https://telegra.ph/file/b5835874bd8a6909a6a39.png" alt="Yakhuza-Userbot" width=400px></a>
    <br>
    <br>
 </p>
-<h1>KampangUsergay</h1>
-<b>BOT TERKAMPANG ASUU!</b>
+<h1>Yakhuza-Userbot</h1>
+<b>Yakhuza-Userbot!</b>
 <br>
 <br>
 
 
-**KampangUsergay** is a Powerful , _Pluggable_ Telegram UserBot written in _Python_ using [Pyrogram](https://github.com/pyrogram/pyrogram).
+**Yakhuza-Userbot** is a Powerful , _Pluggable_ Telegram UserBot written in _Python_ using [Pyrogram](https://github.com/pyrogram/pyrogram).
 <br>
 <p align="center">
     <a href="https://telegram.dog/caritemanhidop"><img src="https://telegra.ph/file/b28a3909df2e46bab6458.jpg" width=220px></a></p>
@@ -52,7 +51,7 @@
 #### By HEROKU
 - [open your app](https://dashboard.heroku.com/apps/) then go to **more** -> **run console** and type `bash genStr` and click **run**.
 #### On REPL
-- [Generate on REPL](https://repl.it/@ManusiaRakitan/stringsession#README.md)
+- [Generate on REPL](https://replit.com/@Yakhuza/stringsession#README.md)
 ### Read more
 <details>
   <summary><b>Details and Guides</b></summary>
@@ -60,12 +59,12 @@
 ## Other Ways
 
 * With Docker 🐳 
-    <a href="https://github.com/Camel07/KampangUsergay/blob/alpha/resources/readmeDocker.md"><b>See Detailed Guide</b></a>
+    <a href="https://github.com/Yakhuza/KampangUsergay/blob/alpha/resources/readmeDocker.md"><b>See Detailed Guide</b></a>
 
 * With Git, Python and pip 🔧
   ```bash
   # clone the repo
-  git clone https://github.com/camel07/kampangusergay.git
+  git clone https://github.com/Yakhuza/kampangusergay.git
   cd userge-x
 
   # create virtualenv
@@ -81,7 +80,7 @@
   # get string session and add it to config.env
   bash genStr
 
-  # finally run the KampangUsergay ;)
+  # finally run the Yakhuza-Userbot ;)
   bash run
   ```
 
